@@ -95,7 +95,7 @@ function winnerLoser(){
 }
 
 function winPicture(){
-    if(underScore = "antelope")
+    if(underScore[0] = "a")
     {
         document.getElementById("antelope").style.cssText = "display: block";
     }
@@ -104,6 +104,7 @@ function winPicture(){
 // Guess a letter
 document.onkeyup = function(event)
 {
+    hasFinished = false;
     userGuesses = event.key;                            // Set key pressed to userGuess
     //does the letter exist in the game word?
     if(randWord.indexOf(userGuesses) > -1)              // YES

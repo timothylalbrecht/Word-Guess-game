@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Word Guess Game</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css" />
+<script src="assets/javascript/game.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Safari Word Guess</h1>
+        <div class="row">
+            <div class="col-md-6 main-column">
+                <h2 id=" ">What you will see on Safari?</h2>
+                <img id="antelope" src="assets/images/antelope.jpg" alt="Winning Image1" />
+                <img id="buffalo" src="assets/images/buffalo.jpg" alt="Winning Image2" />
+                <img id="cheetah" src="assets/images/cheetah.jpg" alt="Winning Image3" />
+                <img id="elephant" src="assets/images/elephant.jpg" alt="Winning Image4" />
+                <img id="giraffe" src="assets/images/giraffe.jpg" alt="Winning Image5" />
+                <img id="hippo" src="assets/images/hippo.jpg" alt="Winning Image6" />
+                <img id="hyena" src="assets/images/hyena.jpg" alt="Winning Image7" />
+                <img id="leopard" src="assets/images/leopard.jpg" alt="Winning Image8" />
+                <img id="lion" src="assets/images/lion.jpg" alt="Winning Image9" />
+                <img id="rhino" src="assets/images/rhino.jpg" alt="Winning Image10" />
+                <img id="wildebeest" src="assets/images/wildebeest.jpg" alt="Winning Image11" />
+                <img id="gameover" src="assets/images/gameover.png" alt="gameover image" />
+            </div>
+            <div class="col-md-6 main-column">
+                <h2>Press A-Z to Make a Guess!</h2>
+                <h3>Current Word</h3>
+                <h3 id="empty-word"></h3>
+                <h3>Guesses Remaining</h3>
+                <h3 id="guesses-left"></h3>
+                <h3>Letters Guessed</h3>
+                <h3 id="guessed-letters"></h3>
+                <h3>Number of Wins</h3>
+                <h3 id="win-Counter"></h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        startGame();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

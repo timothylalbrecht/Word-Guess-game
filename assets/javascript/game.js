@@ -94,8 +94,8 @@ function winnerLoser(){
     }        
 }
 
-function winPicture(){
-    if(underScore[0] = "a")
+function winPicture(){                      // attempt to display a winning image. Problem is I want to display then reset,
+    if(underScore[0] = "a")                 // thus clearing the image. I know I need to nest additional functions within onkeyup, but ran out of time. 
     {
         document.getElementById("antelope").style.cssText = "display: block";
     }
